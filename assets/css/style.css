@@ -242,4 +242,21 @@ input[type=submit] {
     width: 600px;
     margin: 10px auto 100px 20px;
   }
+
+  .work {
+    position: relative;
+    float: left;
+    width: 200px;
+  }
+}  
+
+@media screen and (max-width:768px){
+  .wrapper{
+    width: 720px;
+  }
+  nav{
+    float: left;
+    margin-right:40px;
+  }
 }
+
